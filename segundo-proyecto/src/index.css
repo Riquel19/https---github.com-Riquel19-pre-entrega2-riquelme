@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-clip: border-box;
+}
+
+:root {
+  font-family: 'Barlow', 'sans-serif';
+  line-height: 1.5;
+  font-weight: 400;
+  color: black;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: black;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #968452;
+}
+
+body {
+  width: calc (100vw - (100vw - 100%));
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
